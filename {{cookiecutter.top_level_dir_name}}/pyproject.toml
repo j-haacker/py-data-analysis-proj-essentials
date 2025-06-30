@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "prj_tools"
-authors = [{name = "{{analyst}}", email = "{{email}}"}]
+authors = [{name = "{{cookiecutter.analyst}}", email = "{{cookiecutter.email}}"}]
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
