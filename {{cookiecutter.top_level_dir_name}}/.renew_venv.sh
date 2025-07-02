@@ -1,4 +1,4 @@
-#!/usr/env/{{cookiecutter.shell}}
+#!/usr/bin/{{cookiecutter.shell}}
 source ~/.{{cookiecutter.shell}}rc
 [ -e .venv ] && yes | rm -r .venv
 if command -v {{cookiecutter.python_version_or_env}} >/dev/null 2>&1
